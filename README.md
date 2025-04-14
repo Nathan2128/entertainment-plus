@@ -1,12 +1,40 @@
-# React + Vite
+# Entertainment Plus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Entertainment Plus**, a React-based application designed to provide users with an engaging and seamless entertainment experience. This project showcases modern web development practices and a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎥 Browse and search for movies.
+- 📱 Fully responsive design for mobile and desktop.
+- 🔍 Displays top trending movies based on what users are searching for the most.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nathan2128/entertainment-plus
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd entertainment-plus
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Technologies Used
+
+- **React**: Frontend framework for building user interfaces.
+- **Tailwind CSS 4.0**: For styling components.
+- **appwrite**: back end for storing which movies are being searched for the most.
+
+## Contact
+
+For questions or feedback, please reach out to [nathan.sinnat@gmail.com].
+
+Enjoy exploring **Entertainment Plus**! 🎉
